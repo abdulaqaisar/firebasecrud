@@ -1,0 +1,27 @@
+.card{
+    margin: 6% 0% 0% 35% ;
+    width: 30%;
+    height: 50vh;
+    border: 5px solid black;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid green;
+    height: 10vh;
+    background-color: black;
+    color: aliceblue;
+}
+.userdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userdetails h2{
+    margin-left: 10px;
+}
