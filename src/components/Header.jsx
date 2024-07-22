@@ -40,6 +40,13 @@ const Header = () => {
                     About
                </p>
             </Link>
+            <Link to={'/storeimg'}>
+               <p className={`${activeTab==="Storeimagetext" ? "active" : ""}`} onClick={()=>{
+                setActiveTab("Storeimagetext")
+               }}>
+                    Store Image Text
+               </p>
+            </Link>
         </div>
     </div>
   )

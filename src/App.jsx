@@ -6,10 +6,9 @@ import "react-toastify/dist/ReactToastify.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import View from "./pages/View";
-// import AddEdit from "./pages/AddEdit";
 import Header from "./components/Header";
-import AddEdit from "./pages/AddEditContent";
 import AddEditContent from "./pages/AddEditContent";
+import Storeimagetext from "./pages/Storeimagetext";
 function App() {
   return (
     <>
@@ -24,6 +23,7 @@ function App() {
             <Route path="/update/:id" element={<AddEditContent />} />
             <Route path="/view/:id" element={<View />} />
             <Route path="/about" element={<About />} />
+            <Route path="/storeimg" element={<Storeimagetext/>} />
           </Routes>
         </div>
       </BrowserRouter>
